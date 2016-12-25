@@ -79,6 +79,10 @@ void mkd_flags_are(FILE*, mkd_flag_t, int);
 void mkd_ref_prefix(MMIOT*, char*);
 
 
+/* H1 Title Support
+ */
+char *mkd_h1_title(MMIOT *, int);
+
 /* special flags for markdown() and mkd_text()
  */
 #define MKD_NOLINKS	0x00000001	/* don't do link processing, block <a> tags  */
